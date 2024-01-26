@@ -5,7 +5,7 @@ namespace Iamolayemi\ScnipAssessment\Sorters;
 use Iamolayemi\ScnipAssessment\Contracts\ProductSorter;
 use Illuminate\Support\Collection;
 
-class SalesPerViewSorter implements ProductSorter
+final class SalesPerViewSorter implements ProductSorter
 {
     public function sort(array $products): array
     {

@@ -19,7 +19,8 @@
     ],
     "require": {
         "php": ">=8.1",
-        "illuminate/collections": "^10.42"
+        "illuminate/collections": "^10.42",
+        "symfony/console": "^7.0"
     },
     "require-dev": {
         "pestphp/pest": "^2.32"
