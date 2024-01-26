@@ -11,6 +11,6 @@ final class SalesPerViewSorter implements ProductSorter
     {
         $productsCollection = new Collection($products);
 
-        return $productsCollection->sortBy(fn ($product) => $product['sales_count'] / $product['views_count'])->toArray();
+        return $productsCollection->sortBy(fn ($product) => $product['sales_count'] / $product['views_count'])->values()->all();
     }
 }

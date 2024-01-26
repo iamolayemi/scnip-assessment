@@ -1,6 +1,9 @@
 {
     "name": "iamolayemi/scnip-assessment",
     "license": "MIT",
+    "scripts": {
+        "test": "./vendor/bin/pest"
+    },
     "autoload": {
         "psr-4": {
             "Iamolayemi\\ScnipAssessment\\": "src/"
@@ -23,7 +26,8 @@
         "symfony/console": "^7.0"
     },
     "require-dev": {
-        "pestphp/pest": "^2.32"
+        "pestphp/pest": "^2.32",
+        "mockery/mockery": "^1.6"
     },
     "config": {
         "allow-plugins": {

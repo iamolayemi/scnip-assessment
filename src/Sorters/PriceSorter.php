@@ -11,6 +11,6 @@ final class PriceSorter implements ProductSorter
     {
         $productsCollection = new Collection($products);
 
-        return $productsCollection->sortBy('price')->toArray();
+        return $productsCollection->sortBy('price')->values()->all();
     }
 }
