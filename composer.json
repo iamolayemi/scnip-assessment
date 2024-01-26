@@ -1,0 +1,32 @@
+{
+    "name": "iamolayemi/scnip-assessment",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Iamolayemi\\ScnipAssessment\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Olatayo Olayemi",
+            "email": "olatayo.olayemi.peter@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "illuminate/collections": "^10.42"
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.32"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
