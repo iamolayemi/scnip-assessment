@@ -21,7 +21,7 @@
         }
     ],
     "require": {
-        "php": ">=8.1",
+        "php": ">=8.2",
         "illuminate/collections": "^10.42",
         "symfony/console": "^7.0"
     },

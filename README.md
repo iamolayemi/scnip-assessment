@@ -4,7 +4,7 @@ This repository contains the solutions to scnip backend developer assessment rol
 
 ## Getting Started
 
-> This guide assumed you have [PHP 8.1+](https://php.net/releases/) and [Composer](https://getcomposer.org/) installed on your pc.
+> This guide assumed you have [PHP 8.2+](https://php.net/releases/) and [Composer](https://getcomposer.org/) installed on your pc.
 > 
 ### Clone and Navigate
 Clone this repository and navigate into it:
