@@ -20,7 +20,7 @@ cd scnip-assessment
 composer install
 ```
 
-### Running the Example Acript.
+### Running the Example Script.
 To run the example script:
 ```bash
 php main.php
